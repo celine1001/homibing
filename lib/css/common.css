@@ -1,0 +1,423 @@
+/*font start*/
+/*korean*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/*buri font*/
+
+/*english*/
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cinzel-Regular'), url(/homibing/lib/css/font/zOdksD_UUTk1LJF9z4tURA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cinzel-Bold'), url(/homibing/lib/css/font/L74890HNVnUypqWjqGUt1VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus'), local('Marcellus-Regular'), url(/homibing/lib/css/font/MgbJB3ztDl2YuNvekZ0ENBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marcellus'), local('Marcellus-Regular'), url(/homibing/lib/css/font/FJNab1jzp1t7ctjNl8ugHFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),
+url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),
+url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),
+url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+font-weight:normal;font-style:normal}
+
+
+/*common start*/
+*{
+	margin:0; padding:0;
+}
+ul,ol,dl{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body, html{
+	height:100%
+}
+body{
+	font-size: 12px;
+    line-height: 190%;
+    font-family: 'Noto Sans KR', 'BURI', 'Malgun Gothic', '맑은 고딕', 'NanumGothic', '나눔 고딕', Tahoma, AppleGothic, Arial, sans-serif;
+    letter-spacing: 0.01em;
+    color: #888888;
+}
+/*common end*/
+
+
+
+
+
+/*font end*/
+
+
+
+
+
+/*pc start*/
+
+/*button start*/
+button{
+	background:#333;
+	margin:0 auto;
+	color:#fff;
+	text-align:center;
+	border:0 none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	line-height:170%;
+}
+button:hover{
+	background:#fff;
+	color:#333;
+	border:1px #333 solid;
+	cursor:pointer;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	line-height:170%;
+}
+.homeMenu{
+	width:148px;
+	padding:8px;
+	font-size:14px;
+	height:42px;
+}
+.menuPage{
+	width:150px;
+	padding:10px;
+	font-size:13px;
+	height:42px;
+}
+.storeSpot2letter{
+	width:60px;
+	padding:8px 15px;
+	font-size:14px;
+	height:40px;
+}
+.storeSpot3letter{
+	width:74px;
+	padding:8px 15px;
+	font-size:14px;
+	height:40px;
+}
+.storeView{
+	width:101px;
+	padding:7px;
+	font-size:12px;
+	height:38px;
+}
+.newsPage{
+	width:94px;
+	padding:6px;
+	font-size:9px;
+	height:31px;
+	text-transform:uppercase;
+}
+.newsPageL{
+	width:94px;
+	padding:6px;
+	font-size:9px;
+	height:48px;
+	text-transform:uppercase;
+}
+.listButt{
+	width:148px;
+	padding:10px 8px;
+	font-size:14px;
+	height:44px;
+}
+.topButt{
+	background:#fff;
+	margin:0 auto;
+	color:#333;
+	text-align:center;
+	border:1px #333 solid;
+	width:59px;
+	padding:6px;
+	font-size:11px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	height:35px;
+}
+.footerQ{
+	background:#fff;
+	margin:0 auto;
+	color:#333;
+	text-align:center;
+	border:1px #333 solid;
+	width:184px;
+	padding:8px;
+	font-size:12px;
+	font-weight:bold;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	height:42px;
+}
+.topButt:hover{
+	background:#222;
+	color:#fff;
+	border:1px #333 solid;
+	cursor:pointer;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	height:35px;
+	width:59px;
+}
+.footerQ:hover{
+	background:#222;
+	color:#fff;
+	border:1px #333 solid;
+	cursor:pointer;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	height:42px;
+	width:184px;
+}
+/*button end*/
+
+/*border-top&bottom start*/
+.section_common{
+	color: #fff;
+    height: 490px;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Cinzel', serif;
+}
+.sc_border_tb{
+	padding:27px 0;
+	text-transform: uppercase;
+    position:relative;
+    border-top:3px #FFF solid;
+    border-bottom:3px #FFF solid;
+    margin: 0 auto;
+ 	margin-top:180px;
+    width: 630px;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+}
+.sc_text{
+	text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+
+/*border-top&bottom end*/
+
+/*pc end*/
+
+
+/*1340px start*/
+@media screen and (max-width:1340px){
+	.section_common{
+		height:340px;
+	}
+	.sc_border_tb{
+		margin-top: 110px;
+	}
+}
+/*1340px end*/
+
+
+/*768px start*/
+@media screen and (max-width:768px){
+/*button start*/
+	.homeMenu{
+		width:106px;
+		padding:7px;
+		font-size:13px;
+		height:38px;
+	}
+	.homeMenu:hover{
+		width:106px;
+		height:38px;
+	}
+	.homeInfo{
+		width:116px;
+		padding:7px;
+		font-size:13px;
+		height:39px;
+	}
+	.listButt{
+		width:96px;
+		padding:8px 7px;
+		font-size:13px;
+		height:43px;
+	}
+	.newsPage{
+		width:84px;
+		padding:6px;
+		font-size:8px;
+		height:31px;
+	}
+	.newsPageL{
+		width:84px;
+		padding:6px;
+		font-size:8px;
+		height:48px;
+	}
+/*button end*/
+
+/*border-top&bottom start*/
+.section_common{
+    height: 300px;
+  	background-attachment: initial;
+}
+	
+.section_common .sc_border_tb{
+    margin-top: 110px;
+    width: 510px;
+    font-size: 30px;
+}
+
+/*border-top&bottom end*/
+
+
+}
+/*768px end*/
+
+
+
+/*mobile start*/
+@media screen and (max-width:420px){
+/*button start*/
+	.homeMenu{
+		width:82px;
+		padding:5px;
+		font-size:10px;
+		height:29px;
+	}
+	.homeMenu:hover{
+		width:82px;
+		height:29px;
+	}
+	.homeContact{
+		width:102px;
+		padding:5px;
+		font-size:10px;
+		height:30px;
+	}
+	.franchisePage{
+		width:128px;
+		padding:8px;
+		font-size:12px;
+		height:38px;
+	}
+	.listButt{
+		width:72px;
+		padding:5px;
+		font-size:10px;
+		height:34px;
+	}
+	.storeSpot2letter{
+		width:47px;
+		padding:5px 12px;
+		font-size:12px;
+		font-family: 'BURI', 'Noto Sans KR';
+		height:34px;
+	}
+	.storeSpot3letter{
+		width:58px;
+		padding:5px 12px;
+		font-size:12px;
+		height:34px;
+	}
+	.storeView{
+		width:46px;
+		padding:3px;
+		font-size:9px;
+		height:28px;
+	}
+	.topButt{
+		background:#fff;
+		margin:0 auto;
+		color:#333;
+		text-align:center;
+		border:1px #333 solid;
+		width:57px;
+		padding:5px;
+		font-size:10px;
+		height:34px;
+	}
+	.topButt:hover{
+		background:#222;
+		color:#fff;
+		border:1px #333 solid;
+		cursor:pointer;
+		width:57px;
+		height:34px;
+	}
+/*button end*/
+
+/*border-top&bottom start*/
+.wrapper .section_common{
+    height: 220px;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    
+}
+
+.section_common .sc_border_tb{
+	padding:20px 0;
+    border-top:2px #FFF solid;
+    border-bottom:2px #FFF solid;
+    margin-top: 55px;
+    width: 85%;
+    font-size: 18px;
+    
+}
+.sc_text{
+    font-size: 10px;
+    letter-spacing: 0.2em;
+}
+
+/*border-top&bottom end*/
+
+
+}
+/*moblile end*/
+

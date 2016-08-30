@@ -1,0 +1,731 @@
+/*pc  start*/
+.wrapper{
+	position:relative;
+}
+
+.nav_menu,.nav_menu_story{display:none;} 
+.nav_menu_home{
+	display:block;
+}
+
+
+
+
+
+/*section1 start*/
+.section1{
+	height:580px;
+	width:100%;
+	background: #f6eeeb;
+}
+.section1 .st_1{
+	width:50%;
+	float:left;
+	position:relative;
+}
+.section1 .st_1 .st_1_bg{
+	background-image: url(/homibing/lib/images/goeun/main_2_bg.png);
+	width:100%;
+	height:580px;
+	margin-right:50px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.section1 .st_1 .st_1_logo{
+	background-image: url(/homibing/lib/images/goeun/main_2_logo.png);
+	position:absolute;
+	top:40%;
+	left:20%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:60%;
+	height:20%;	
+}
+.section1 .st_about{
+	width:30%;
+	margin:0 10%;
+	float:left;
+}
+.section1 .st_about .st_ab{
+	padding:36% 0 0;
+}
+/*section1 end*/
+
+
+.title_common {
+	letter-spacing: 0.1em;
+	color: #000;
+	font-size: 24px;
+	font-family: 'Cinzel', serif;
+	margin:0 0 20px 0;
+	line-height: 170%;
+}
+.text_common{
+	letter-spacing: 0.02em;
+	color: #772a15; 
+	font-size: 20px;
+	font-family: 'BURI', sans-serif;
+	margin:0 0 15px 0;
+	line-height: 170%;
+}
+.p_common{
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	line-height: 170%;
+}
+
+
+/*section2 start*/
+.section2{
+	background-image: url(/homibing/lib/images/goeun/main_3_bg.jpg);
+	background-position: top center;
+}
+/*section2 end*/
+
+
+/*section3 start*/
+.section3{
+	width:100%;
+	padding:100px 0;	
+}
+.section3 .st_3{
+	width:90%;
+	margin:0 5%;
+	text-align:center;
+}
+[class^="st_box"]{
+	width:310px;;
+	display:inline-block;
+	margin:3% 1% 1.5%;
+	vertical-align:top;	
+}
+.section3 .st_3 .box_img img{
+	width:100%;
+}
+.section3 .st_3 .box_title{
+	letter-spacing: 0.1em;
+	font-family: 'Marcellus', serif;
+	color: #772a15;
+	font-size: 15px;
+	line-height: 170%;
+	text-transform: uppercase;
+}
+.section3 .st_3 .box_text{
+	line-height: 170%;
+    font-size: 14px;
+    margin-top:20px;
+}
+.section3 button{
+	margin-top:7px;
+}
+/*section3 end*/
+
+
+/*section4 start*/
+.section4{
+	background-image: url(/homibing/lib/images/goeun/main_4_bg.jpg);
+	background-position: center center;
+	position:relative;
+}
+.section4_sub{
+	position: absolute;
+    height: 448px;
+    width: 875px;
+    margin-top: -315px;
+    margin-left: -2%;
+}
+.section4_sub img{
+	width:100%;
+}
+/*section4 end*/
+
+
+/*section5 start*/
+.section5{
+	width: 100%;
+    background: #f6eeeb;  
+    height: 515px;
+}
+.section5 .st_5_left{
+	float:left;
+	width:55%;
+	padding-top:180px;
+}
+
+.section5 .st_5_left .st_5_wrap{
+	margin-left:13%;
+}
+.section5 .st_5_left .st_5_wrap .st_5_box{
+	display: inline-block;
+    margin-top: 30px;
+	margin-right:4%;
+    border-bottom:2px #772a15 solid;
+    color: #772a15;
+}
+.section5 .st_5_left .st_5_wrap .st_5_box>span{
+	letter-spacing: 0.1em;
+	font-family: 'Marcellus', serif;
+	text-align: left;
+	font-size: 15px;
+	text-transform: uppercase;
+	display:block;
+}
+.section5 .st_5_left .st_5_wrap .st_5_box>div{
+	margin:10px 5px;
+	height:50px;
+	text-align: center;
+}
+.section5 .st_5_left .st_5_wrap .st_5_box>div>span{
+	letter-spacing: 0.1em;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	line-height: 170%;
+} 
+.section5 .st_5_left .st_5_wrap .box_1>div{
+	width:70px;
+}
+.section5 .st_5_left .st_5_wrap .box_2>div{
+	width:50px;
+}
+.section5 .st_5_left .st_5_wrap .box_3>div{
+	width:100px;
+}
+.section5 .st_5_left .st_5_wrap .box_4>div{
+	width:70px;
+}
+.section5 .st_5_left .st_5_wrap .box_5>div{
+	width:210px;
+}
+.section5 .st_5_left .st_5_wrap .box_5{
+    margin-right: 0;
+}
+.section5 .st_5_right{
+	float:left;
+	width:40%;
+	margin-left:5%;
+	padding:150px 0;
+}
+.section5 .st_5_right .st_rt{
+	padding-right:5%;
+}
+.section5 .st_5_right button{
+	margin-top:10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Marcellus', serif;
+}
+.section5 .st_5_right .btn2{
+	display:none;
+}
+/*section5 end*/
+
+
+/*section6 start*/
+.section6{
+	background-image: url(/homibing/lib/images/goeun/main_5_bg.jpg);
+	background-position: top center;
+}
+
+/*section6 end*/
+
+
+/*section7 start*/
+.section7{
+	width:100%;
+	padding:120px 0;
+}
+.section7 .st_7{
+	width:86%;
+	margin:0 7%;
+	text-align:center
+}
+.section7 .st_7 .st_7_text{
+	letter-spacing: 0.02em;
+	font-family: 'BURI', sans-serif;
+	color: #772a15;
+	font-size: 20px;
+	line-height: 170%;
+	margin-bottom:70px;
+}
+.section7 .st_7 .st_7_box{
+	display:inline-block;
+	width: 27%;	
+	position:relative;
+	margin:2%;
+	vertical-align:top;
+}
+.section7 .st_7 .st_7_box a span{
+	display:block;
+	position:absolute;
+	top:23%;
+	left:50%;
+	margin-left:-150px;
+	letter-spacing: 0.05em;
+	font-family: 'Cinzel', serif;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 170%;
+	font-size:50px;
+	opacity:0.6;
+	vertical-align: middle;
+}
+.section7 .st_7 .st_7_box a img{
+	width:100%;
+}
+.section7 .st_7 .st_7_box .spot{
+	letter-spacing: 0.02em;
+    font-family: 'BURI', sans-serif;
+    text-align: left;
+    color: #772a15;
+    font-size:18px;
+    line-height: 170%;
+    float:left;
+    margin-top:20px;
+}
+.section7 .st_7 .st_7_box .condition{
+	float: right;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top:20px;
+    letter-spacing: 0.05em;
+    font-family: 'Marcellus', serif;
+    color: #000;
+    font-size: 11px;
+}
+.section7 .st_7 .st_7_box .spot_text{
+	clear:left;
+	text-align: left;
+	font-size: 14px;
+	padding-top:10px;
+}
+/*section7 end*/
+
+
+/*pc end*/
+
+/*1570px start*/
+@media screen and (max-width:1570px){
+/*section4 start*/	
+	.section4_sub{
+	    height: auto;
+	    width: 800px;
+	    margin-top: -315px;
+	    margin-left: -3%;
+	}
+/*section4 end*/
+}
+/*1570px end*/
+
+
+
+/*1460px start*/
+@media screen and (max-width:1460px){
+/*section4 start*/
+	.section4_sub{
+	    height: auto;
+	    width: 700px;
+	    margin-top: -312px;
+	    margin-left: -3%;
+	}
+/*section4 end*/
+
+/*section5 start*/
+	.section5{
+		height: 473px;
+	}
+	.section5 .st_5_left{
+		padding-top:140px;
+		width:57%;
+	}
+	.section5 .st_5_left .st_5_wrap{
+		margin-left:10%;
+		width:90%;
+	}	
+	.section5 .st_5_right{
+		float:left;
+		width:35%;
+		padding:100px 3% 100px 0;
+	}
+	.section5 .st_5_left .st_5_wrap .box_1>div{
+		width:60px;
+	}
+	.section5 .st_5_left .st_5_wrap .box_2>div{
+		width:40px;
+	}
+	.section5 .st_5_left .st_5_wrap .box_3>div{
+		width:90px;
+	}
+	.section5 .st_5_left .st_5_wrap .box_4>div{
+		width:60px;
+	}
+	.section5 .st_5_left .st_5_wrap .box_5>div{
+		width:200px;
+	}
+/*section5 end*/
+
+/*section7 start*/
+	.section7 .st_7 .st_7_box a span{
+		font-size:45px;
+		margin-left: -134px;
+	}
+/*section7 end*/
+}
+/*1460px end*/
+
+/*1340px start*/
+@media screen and (max-width:1340px){
+/*section4 start*/
+	.section4_sub{
+	    height: auto;
+	    width: 650px;
+	    margin-top: -170px;
+	    margin-left: -10%;
+	}
+/*section4 end*/
+/*section7 start*/
+	.section7 .st_7 .st_7_box a span{
+		font-size: 35px;
+	    top: 25%;
+	    margin-left: -104px;
+	}
+/*section7 end*/
+
+
+
+}
+/*1340px end*/
+/*1250px start*/
+@media screen and (max-width:1250px){
+	/*section5 start*/
+	.section5 .st_5_right{
+		
+		padding:85px 3% 85px 0;
+	}
+}
+/*1250px end*/
+
+
+/*1035px start*/
+@media screen and (max-width:1035px){
+	.section5{height: 498px;}
+
+/*section7 start*/
+	.section7 .st_7 .st_7_box{
+		width: 44%;	
+		margin:2%;
+	}
+	.section7 .st_7 .st_7_box a span{
+		font-size: 45px;
+		top: 27%;
+    	margin-left: -133px;
+	}
+/*section7 end*/
+}
+/*1035px end*/
+
+
+/*1000px start*/
+@media screen and (max-width:1000px){
+/*section1 start*/
+	.section1 .st_1 .st_1_logo{
+		top:43%;
+		left:23%;
+		width:55%;
+		height:15%;		
+	}
+/*section1 end*/	
+
+	.title_common{
+		margin:0 0 25px 0;
+	}
+	.text_common{
+		margin:0 0 20px 0;
+	}
+	.p_common{
+		font-size: 16px;
+		letter-spacing: 0.01em;
+	}
+
+	.section5{height: 553px;}
+}
+/*1000px end*/
+
+/*845px start*/
+@media screen and (max-width:845px){
+/*section7 start*/
+	.section7 .st_7 .st_7_box a span{
+		font-size: 35px;
+	    top: 25%;
+	    margin-left: -104px;
+	}
+/*section7 end*/
+
+}
+/*845px end*/
+
+
+/*768px start*/
+@media screen and (max-width:768px){
+/*section1 start*/
+	.section1{
+		width:100%;
+		height:390px;
+	}
+	.section1 .st_1{
+		display:none;
+	}
+	.section1 .st_about{
+		width:90%;
+		padding:0 5% 0 15%;
+		margin:0;
+		box-sizing:border-box;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-o-box-sizing: border-box;
+	}
+	
+	.section1 .st_about .st_ab{
+	 	padding: 14% 0 9%;
+	}
+/*section1 end*/
+	
+/*section4 start*/
+	.section4_sub{
+		width:600px;
+	    margin-top: -130px;
+	    margin-left: -17%;
+	}
+/*section4 end*/
+
+
+
+/*section5 start*/
+	.section5{
+		height: 750px;
+		
+	}
+	.section5 .st_5_left{
+		width:90%;
+	}
+	.section5 .st_5_left .st_5_wrap{
+		margin-left:10%;
+	}
+	
+	.section5 .st_5_right{
+		width: 80%;
+	    padding: 70px 10%;
+	    margin-left:0;
+	}
+
+
+
+/*section5 end*/
+
+	
+}
+/*768px end*/
+
+/*715px start*/
+@media screen and (max-width:715px){
+/*section3 start*/
+	[class^="st_box"]{
+		margin: 4% 1% 1.5%	
+	}
+/*section3 end*/
+	
+}
+/*715px end*/
+
+/*655px start*/
+@media screen and (max-width:655px){
+/*section7 start*/
+	.section7 .st_7 .st_7_box a span{
+		font-size: 30px;
+	    top: 21%;
+   		margin-left: -92px;
+	}
+/*section7 end*/
+
+}
+/*655px end*/
+
+/*602px start*/
+@media screen and (max-width:602px){
+/*section5 start*/
+.section5{
+	height: 790px;
+	
+}
+.section5 .st_5_right{
+    padding: 60px 10%;
+
+}
+
+
+
+/*section5 end*/
+
+}
+/*602px end*/
+
+
+
+/*550px start*/
+@media screen and (max-width:550px){
+/*section4 start*/
+	.section4_sub{
+		width:500px;
+	    margin-left: -20%;
+	}
+/*section4 end*/
+
+
+/*section5 start*/
+	.section5{
+		height:750px;
+		
+	}
+	.section5 .st_5_left{
+		padding-top:100px;
+	}
+	
+	.section5 .st_5_right{
+		padding: 55px 10% 50px;
+	}
+	.section5 .st_5_right .st_rt {
+	    padding-right: 0;
+	}
+	.title_common {
+    	margin: 0 0 20px 0;
+	}.text_common {
+	    margin: 0 0 15px 0;
+	    line-height: 150%;
+}
+/*section5 end*/
+
+
+/*section7 start*/
+	.section7 .st_7 .st_7_box{
+		width: 75%;	
+		margin:2%;
+	}
+	.section7 .st_7 .st_7_box a span{
+		font-size: 35px;
+    	top: 21%;
+    	margin-left: -101px;
+	}
+/*section7 end*/
+
+}
+/*550px end*/
+
+/*mobile start*/
+@media screen and (max-width:420px){
+/*section1 start*/
+	.section1{
+		height: 350px;
+	}
+	.section1 .st_about{
+		width:90%;
+		padding:20px 10%;
+		margin:0
+	}
+/*section1 end*/
+		
+	.title_common{
+		letter-spacing: 0.1em;
+		color: #000;
+		font-size: 20px;
+		margin:0 0 20px 0;
+	} 
+	.text_common{
+		letter-spacing: 0.02em;
+		color: #772a15; 
+		font-size: 16px;
+		font-family: 'BURI', sans-serif;
+		margin:0 0 10px 0;
+	}
+	.p_common{
+		font-size: 14px;
+	}
+/*section3 start*/
+	.section3{
+		padding:60px 0 100px	
+	}
+	.section3 .st_3 .box_text{
+		display:none;
+	}
+	
+	[class^="st_box"]{
+		margin: 7% 1% 1.5%	
+	}
+/*section3 end*/
+
+/*section4 start*/
+	.section4_sub{
+	   width:300px;
+	   margin-top: -130px;
+	   margin-left: -17%;
+	}
+/*section4 end*/
+
+/*section5 start*/
+	.section5{
+		height:600px;}
+	.section5 .st_5_left{
+		padding:30px 5% 45px;
+	}
+	.section5 .st_5_left .st_5_wrap .st_5_box {
+    	margin-top: 20px;
+	}
+	.section5 .st_5_left .st_5_wrap .st_5_box>span{
+		font-size: 14px;
+
+	}
+	.section5 .st_5_left .st_5_wrap .st_5_box>div{
+		height:auto;;
+	}
+	.section5 .st_5_left .st_5_wrap .st_5_box>div>span{
+		letter-spacing: 0.1em;
+		font-family: 'Noto Sans KR', sans-serif;
+		text-align: center;
+	    font-size: 20px;
+
+	} 
+	.section5 .st_5_left .st_5_wrap .box_5>div{
+		width:140px;
+	}
+
+	.section5 .st_5_right{
+		float:left;
+		width:80%;
+		padding:3% 10% 6%;
+		margin-left:0;
+	}
+
+	.section5 .st_5_right .btn1{
+	    display:none;
+	}
+	.section5 .st_5_right .btn2{
+	    display:inline-block;
+	    width: 95px;
+	}
+
+/*section5 end*/
+
+/*section7 start*/
+	.section7 .st_7 .st_7_box a span{
+		display:none;
+	}
+	.section7 .st_7 .st_7_box .condition{
+		display:none;
+	}
+/*section7 end*/
+
+}
+
+
+/*mobile end*/

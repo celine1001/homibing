@@ -1,0 +1,243 @@
+/*pc  start*/
+.nav_menu_home,.nav_menu_story{display:none;} 
+.nav_menu{
+	background-image: url(/homibing/lib/images/hyein/store_1_bg.jpg);
+	background-position: center bottom;
+}
+.nav_box{
+	width:350px;
+	margin-left:-175px;
+	}
+.nav_menu>.nav_box>.strong_store{
+	display:block;
+}	
+	
+
+/*content Ω√¿€ (pc)*/
+
+
+.storcontent{
+	overflow: hidden;
+	width: 100%;
+   
+}
+
+.storbox{
+	max-width: 1100px;
+	padding: 100px 20px 20px 20px;
+	margin:0 auto;
+}
+
+
+.infoname{
+	width: 100%;
+    padding-bottom: 80px;
+    display: inline-block;
+    
+	}
+	
+
+[class^="infoname"] .storeSpot2letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:4px;
+}
+
+ 
+[class^="infoname"] .storeSpot2letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+	
+  
+[class^="infoname"] .storeSpot3letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:4px;
+}
+	
+
+[class^="infoname"] .storeSpot3letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+
+		
+	
+	
+[class^="stor_shop_su"]{
+	width: 100%;
+	display: inline-block;
+	position:relative;
+	
+}
+
+.store-map{
+	position:absolute;
+	width:100%;
+	height:300px;
+}
+
+[class^="shop_suga"]{
+	width: 100%;
+    float: left;
+    letter-spacing: 0.02em;
+}
+
+
+[class^="shop_suga"] span{
+font-family: 'BURI', sans-serif;
+color: #772a15;
+font-size: 18px;
+line-height: 170%;
+}
+
+
+
+[class^="shop_suga"] p{
+	margin-bottom:30px;
+	font-size: 14px;
+	line-height: 170%;
+	float:left;
+
+}
+
+[class^="shop_suga"] .storeView,.storeClose{
+	float:right;
+    width:100px;
+    height:35px;
+}
+
+[class^="shop_suga"] .storeClose{
+	display:none;
+}
+
+[class^="store-map"]  iframe {
+	margin-top:20px;
+	
+}
+
+
+
+[class^="shop_line"]{
+	background-color: #E4E4E4;
+    height: 1px;
+    width: 100%;
+    margin: 35px 0 35px 0;
+    float: left;	
+} 
+
+
+
+/*content ≥° (pc)*/
+
+
+/*pc end*/
+@media screen and (max-width:1340px){
+	.nav_box{
+		width:350px;
+		margin-left:-175px;
+	}
+}
+
+
+/*768px start*/
+@media screen and (max-width:768px){
+	.nav_box{
+		width:220px;
+		margin-left:-110px;
+	}
+	
+}
+
+	
+[class^="shop_line"]{
+	background-color: #E4E4E4;
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    float: left;	
+} 
+	
+
+
+/*768px end*/
+/*mobile start*/
+@media screen and (max-width:420px){
+	.nav_box{
+		width:200px;
+		margin-left: -100px;
+	}
+	
+/*content button start*/
+
+
+
+[class^="infoname"] .storeSpot2letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 13px;
+    width:20%;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:4px;
+}
+
+ 
+[class^="infoname"] .storeSpot2letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 13px;
+    width:20%;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+	
+  
+[class^="infoname"] .storeSpot3letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 13px;
+    width:24%;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:3px;
+}
+	
+
+[class^="infoname"] .storeSpot3letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 13px;
+    width:24%;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+
+		
+
+/*content button end*/	
+	
+	
+	
+	
+	
+	
+}
+/*mobile end*/

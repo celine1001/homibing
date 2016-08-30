@@ -1,0 +1,132 @@
+.nav_menu>.nav_box>.strong_content{
+	display:none;
+}	
+	
+
+
+
+
+.storcontent{
+
+	overflow: hidden;
+	width: 100%;
+   
+}
+
+
+.storbox{
+	max-width: 1100px;
+	padding: 100px 20px 20px 20px;
+	margin:0 auto;
+}
+
+
+.infoname{
+	width: 100%;
+    padding-bottom: 80px;
+    display: inline-block;
+	}
+	
+  
+[class^="infoname"] .storeSpot2letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:4px;
+}
+
+ 
+[class^="infoname"] .storeSpot2letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+	
+  
+[class^="infoname"] .storeSpot3letter{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#fff;
+    color:#888888;
+    margin-bottom:4px;
+}
+	
+
+[class^="infoname"] .storeSpot3letter:hover{
+	font-family: 'BURI', 'Noto Sans KR';
+    font-size: 14px;
+    border:#888888 1px solid;
+    background:#333;
+    color:#fff;
+    margin-bottom:4px;
+}
+
+		
+	
+	
+	
+[class^="stor_shop_su"]{
+	width: 100%;
+	display: inline-block;
+	
+}
+
+[class^="shop_suga"]{
+	width: 100%;
+    float: left;
+    letter-spacing: 0.02em;
+}
+
+
+[class^="shop_suga"] span{
+font-family: 'BURI', sans-serif;
+color: #772a15;
+font-size: 18px;
+line-height: 170%;
+}
+
+
+
+[class^="shop_suga"] p{
+	margin-bottom:30px;
+	font-size: 14px;
+	line-height: 170%;
+	float:left;
+
+}
+
+[class^="shop_suga"] .storeViews,.storeCloses{
+	float:right;
+    width:100px;
+    height:35px;
+}
+
+[class^="shop_suga"] .storeViews{
+	display:none;
+}
+
+
+
+
+
+
+[class^="store-map"]  iframe {
+	margin-top:20px;
+	
+}
+
+
+
+[class^="shop_line"]{
+	background-color: #E4E4E4;
+    height: 1px;
+    width: 100%;
+    margin: 35px 0 35px 0;
+    float: left;	
+} 

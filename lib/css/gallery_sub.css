@@ -1,0 +1,261 @@
+/*pc  start*/
+.wrapper{
+	
+}
+/*top start*/
+.nav_menu_home,.nav_menu_story{display:none;} 
+.nav_menu{
+	background-image: url(/homibing/lib/images/hyein/gallery_1_bg.jpg);
+	background-position: center bottom;
+}
+.nav_box{
+	width:370px;
+	margin-left:-185px;
+	}
+	
+.nav_menu>.nav_box>.strong_gallery{
+	display:block;
+}	
+	
+	
+	
+/*top end*/
+
+/*contents start*/
+.gpos_conter{/*outline:1px #00F solid;*/
+	width:100%;
+	
+}
+.gpos_conter .g_outbox{/*outline:1px #000 solid;*/
+	margin:0 auto;
+	max-width:1300px;
+	padding:30px;
+}
+.gpos_conter .g_outbox .g_postbox{/*outline:1px #0F0 solid;*/
+	width: 100%;
+    margin: 0 auto;
+    padding: 100px 0px;
+    display: inline-block;
+    position: relative;
+}
+.gpos_conter .g_outbox .g_postbox .gpo_text{/*outline:1px #F00 solid;*/
+	
+	float:left;
+	margin:0 50px 0 0;
+}
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct{/*outline:1px #000 solid;*/
+	width:100%
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_title{
+	margin-bottom:5px;
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct .gtitle{
+	letter-spacing:0.02em;
+	font-family:'BURI',snas-serif;
+	color:#444;
+	font-size:20px;
+	line-height:170%;
+
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_date{
+	margin-bottom:20px;
+	color:#333;
+}
+
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_text{
+	font-size:14px;	
+	
+}
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_text .gmemo{
+	font-size: 14px;
+	line-height: 170%;
+	color:#888888;
+}
+
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_text .gmemo2{
+	color:#888888;
+	font-size: 14px;
+	line-height: 170%;
+
+}
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct_last{
+	letter-spacing:0.05em;
+	font-family:'Marcellus',serif;
+	color:#772a15;
+	margin-top:25px;
+	font-size:14px;
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ct,.ci_img{/*outline:1px #F00 solid;*/
+	max-width:900px;
+}
+.gpos_conter .g_outbox .g_postbox .gpo_text .gpo_ct .ci_img img{/*outline:1px #0FF solid;*/
+	width:100%;
+	margin-top:40px;
+}
+.gpos_conter .g_outbox .g_postbox .gpo_banner{
+	
+	width:325px;
+	height:50px;
+	float:left;
+	
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .banline{
+	background-color: #E3E3E3;
+    height: 1px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .banlogotit{
+	text-transform:uppercase;
+	letter-spacing:0.02em;
+	font-family:'Marcellus',serif;
+	color:#772a15;
+	font-size:14px;
+	margin-bottom:15px;
+}
+
+
+
+.gpo_banner img{
+	cursor:pointer;
+}
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .banline2{
+	background-color: #E3E3E3;
+    height: 1px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .banlogtit2{
+	text-transform:uppercase;
+	letter-spacing:0.02em;
+	font-family:'Marcellus',serif;
+	color:#772a15;
+	font-size:14px;
+	margin-bottom:15px;
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .fra_memo{
+	position: absolute;
+    letter-spacing: 0.02em;
+    font-family: 'BURI', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: 25px;
+    line-height: 170%;
+}
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .botmemo_num{
+	letter-spacing: 0.05em;
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    line-height: 100%;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 25px;
+	
+}
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .botmemo{
+	color:#fff;
+	font-size:14px;
+	line-height:170%;
+	position: absolute;
+	margin-top:370px;
+	margin-left:25px;
+	
+}
+
+
+
+.gpos_conter .g_outbox .g_postbox .gpo_banner .banline_bottom{
+	background-color: #E3E3E3;
+    height: 1px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.gpos_conter .g_outbox .g_postbox .listButt{
+	position: absolute;
+    left: 45%;
+    text-align: center;
+    bottom:0%;
+    
+}
+/*contents end*/
+
+/*pc end*/
+
+/*1400px banner start*/
+@media screen and (max-width:1400px){
+	.gpo_banner{
+		display:none;
+	}
+	.gpos_conter .g_outbox .g_postbox .gpo_text{
+		float:none;
+		margin-left:12%;
+	}
+}
+/*1400px banner end*/
+
+@media screen and (max-width:1340px){
+	.nav_box{
+		width:280px;
+		margin-left:-140px;
+	}
+}
+
+/*768px start*/
+
+@media screen and (max-width:768px){
+/*top start*/
+	.nav_box{
+		width:280px;
+	margin-left:-140px;
+	}
+/*top end*/
+/*contents start*/
+/*contents end*/
+	
+}
+
+/*768px end*/
+
+
+
+
+/*mobile start*/
+@media screen and (max-width:420px){
+/*top start*/
+	.nav_box{
+		width:230px;
+		margin-left: -115px;
+	}
+/*top end*/
+/*contents start*/
+/*contents end*/
+}
+/*mobile end*/   

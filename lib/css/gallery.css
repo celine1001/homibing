@@ -1,0 +1,272 @@
+/*pc  start*/
+
+/*top start*/
+.nav_menu_home,.nav_menu_story{display:none;} 
+.nav_menu{
+	background-image: url(/homibing/lib/images/hyein/gallery_1_bg.jpg);
+	background-position: center bottom;
+}
+.nav_box{
+	width:370px;
+	margin-left:-185px;
+	}
+	
+	
+.nav_menu>.nav_box>.strong_gallery{
+	display:block;
+}	
+	
+/*top end*/
+
+/*contents start*/
+
+
+.gall_containter{
+	overflow: hidden;
+	width: 100%;
+   
+    
+   }
+	
+
+     
+[class^="con"]{
+	
+	width: 25%;
+    margin: 0 auto;
+    float:left;
+    cursor: pointer;
+	
+} 
+ 
+ 
+   
+[class^="gall_over"]{
+ 	background-color: #3d3d3d;
+    position: relative;
+    opacity: 1;
+    }
+    
+
+     
+[class="gall_title"]{
+	font-size: 16px;
+    height: 30px;
+    position: absolute;
+    opacity: 1;
+    color: #FFF;
+    top: 0%;
+    width: 90%;
+    padding: 5%;
+    }
+    
+  
+  
+  
+
+
+    
+    
+[class^="gall_sm_title"]{
+	font-size: 14px;
+    height: 30px;
+    position: absolute;
+    opacity: 1;
+    color: #EBEBEB;
+    top: 0%;
+    width: 90%;
+    margin-top: 60px;
+    padding-right: 5%;
+    letter-spacing: -0.05em;
+}    
+
+         
+.gall_sm_titleover>span{ 
+    overflow: visible;
+} 
+[class^="gall_sm_title"] p{    
+ 	font-size: 75%;
+ }  
+ 
+ 
+    
+[class^="gall_titleover"]{     
+	font-size: 16px;
+    height: 30px;
+    position: absolute;
+    display:none;
+    color: #000;
+    top: 0%;
+    width: 90%;
+    height: 30%;
+    background-color: #F3f3f3;
+    padding: 5%;
+    
+}
+
+ 
+[class^="gall_sm_titleover"]{
+	font-size: 14px;
+    height: 30px;
+    position: absolute;
+    color: #b0adad;
+    top: 0%;
+    width: 90%;
+    margin-top: 60px;
+    padding-right: 5%;
+    letter-spacing: -0.05em;
+}    
+     
+
+
+[class^="gall_sm_titleover"] span{    
+ 	font-size: 75%;
+ } 
+ 
+ 
+ 
+[class^="gall_img"]{    
+	opacity: 0.15;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-size: cover; 
+}
+
+
+
+
+[class^="gall_img"] img{
+	width:100%;
+	display:block;
+	vertical-align: top;
+}
+
+
+
+
+
+   
+ 
+
+/*contents end*/
+
+/*pc end*/
+@media screen and (max-width:1340px){
+	.nav_box{
+		width:280px;
+		margin-left:-140px;
+	}
+}
+
+/*1050px start*/
+/*contents start*/
+
+@media screen and (max-width:1050px){
+
+.gall_containter{
+	overflow: hidden;
+	width: 100%;
+    
+   }
+
+
+
+     
+[class^="con"]{
+	
+	width:33.33333%;
+    margin: 0 auto;
+    float:left;
+    cursor: pointer;
+	
+}
+
+
+
+    
+[class^="gall_titleover"]{     
+    height: 80px;
+    
+}
+
+     
+    
+}  
+   
+
+/*contents end*/	
+
+/*1050px end*/
+
+
+
+/*768px start*/
+
+@media screen and (max-width:768px){
+/*top start*/
+	.nav_box{
+		width:280px;
+	margin-left:-140px;
+	}
+	
+
+
+/*top end*/
+
+
+
+     
+[class^="con"]{
+	
+	width:50%;
+    margin: 0 auto;
+    float:left;
+    cursor: pointer;
+	
+}    
+   
+/*768px end*/
+
+
+
+
+/*mobile start*/
+@media screen and (max-width:420px){
+/*top start*/
+	.nav_box{
+		width:230px;
+		margin-left: -115px;
+	}
+/*top end*/
+
+/*contents start*/
+
+
+.gall_containter{
+	overflow: hidden;
+	width: 100%;
+  
+    
+   }
+
+
+
+     
+[class^="con"]{
+	
+	width:100%;
+    margin: 0 auto;
+    float:left;
+    cursor: pointer;
+	
+}    
+
+
+
+
+   
+/*contents end*/	
+}
+/*mobile end*/   

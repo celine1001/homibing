@@ -1,0 +1,156 @@
+/*pc  start*/
+.nav_menu_home,.nav_menu_story{display:none;} 
+.nav_menu{
+	background-image: url(/homibing/lib/images/sunkyung/menu_1_bg.jpg);
+	background-position: center center;
+}
+.nav_box{
+	width:290px;
+	margin-left:-145px;
+	}
+.nav_menu>.nav_box>.strong_menu{
+	display:block;
+}	
+		
+	
+	
+	
+.menu_wrap{
+	width:100%; height:100%;
+}
+.menu>div{
+	display:none;
+}
+.tea{
+	width:100%; height:380px;
+	background-image:url(/homibing/lib/images/sunkyung/menu_2_bg.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	position:relative;
+}
+.coffee{
+	width:100%; height:380px;
+	background-image:url(/homibing/lib/images/sunkyung/menu_3_bg.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	position:relative;
+}
+.iceflake{
+	width:100%; height:380px;
+	background-image:url(/homibing/lib/images/sunkyung/menu_4_bg.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	position:relative;
+}
+.blended{
+	width:100%; height:380px;
+	background-image:url(/homibing/lib/images/sunkyung/menu_5_bg.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	position:relative;
+}
+.season{
+	width:100%; height:380px;
+	background-image:url(/homibing/lib/images/sunkyung/menu_6_bg.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	position:relative;
+}
+.menuPage{
+	background:#6d3a2d;
+	font-weight:bold;
+	margin-top:20px;
+}
+.menuPage:hover{
+	font-weight:bold;
+	border:none;
+}
+.menu>div{
+	width:40%
+}
+dt{
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	font-family: 'Cinzel', serif;
+	font-size:30px;
+	margin-bottom:20px;
+	line-height: 1;
+}
+dd{
+	color:#fff;
+	letter-spacing:0.02em;
+	font-family: 'BURI', sans-serif;
+	font-size:14px;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+.right>div{
+	position:absolute;
+	left:45%;
+	padding:115px 0 0 10%;
+}
+.left>div{
+	position:absolute;
+	left:0;
+	padding:115px 0 0 10%;
+}
+
+/*pc end*/
+@media screen and (max-width:1340px){
+	..nav_box{
+		width:250px;
+		margin-left:-125px;
+	}
+}
+
+
+/*768px start*/
+@media screen and (max-width:768px){
+	
+	.menu_wrap>div{
+		width:100%; height:300px;
+	}
+	.menu>div{
+		width:50%
+	}
+	.right>div{
+		position:absolute;
+		left:40%;
+		padding:70px 4% 0 6%;
+	}
+	.left>div{
+		position:absolute;
+		left:0;
+		padding:70px 0 0 5%;
+	}
+}
+/*768px end*/
+/*mobile start*/
+@media screen and (max-width:420px){
+	.nav_box{
+		width:200px;
+		margin-left: -100px;
+	}
+	.menu_wrap>div{
+		width:100%; height:230px;
+	}
+	dt{
+		font-size:15px;
+	}
+	dd{
+		font-size:13px;
+	}
+	.right>div{
+		position:absolute;
+		left:35%;
+		padding:40px 0 0 10%;
+	}
+	.left>div{
+		position:absolute;
+		left:10%;
+		padding:40px 0 0 0;
+	}
+}
+/*mobile end*/
